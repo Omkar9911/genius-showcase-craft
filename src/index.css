@@ -277,7 +277,7 @@
 
   .form-textarea {
     @apply w-full px-4 py-3 rounded-lg border border-input-border bg-input;
-    @apply text-foreground placeholder:text-neutral-400 resize-vertical min-h-32;
+    @apply text-foreground placeholder:text-neutral-400 resize-y min-h-32;
     @apply focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-transparent;
     @apply transition-colors;
   }
